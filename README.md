@@ -18,13 +18,21 @@ and a list of tuples for each layer input size and it's activation function name
 
 for instance imagine we want a NN with 4 layers such that the first layer has 12 neurons with *tanh* activation
 
-the second layer has 8 neurons with *tanh* activation 
+the second layer has 8 neurons with **tanh** activation 
 
-the third layer has 4 neurons with the *relu* activation function
+the third layer has 4 neurons with the **relu** activation function
 
-and the last layer has 3 neuron with the *softmax* activation functin and our inputs are 1*3 arrays.
+and the last layer has 3 neuron with the **softmax** activation functin and our inputs are 1*3 arrays.
 
 our model will be created like this:
-```m = MLP(```
+
+```m = MLP(3,[(12,'tanh'),(8,"tanh"),(4,"relu"),(3,"softmax")])```
+
+> [!TIP]
+> the default activation is relu so if you just pass a number or a tuple just with one elemnt like these are valid!
+> 
+>```m = MLP(3,[(12,'tanh'),(8,"tanh"),(4,),(3,"softmax")])```
+> 
+>```m = MLP(3,[(12,'tanh'),(8,"tanh"),4,(3,"softmax")])```
 
 

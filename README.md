@@ -35,4 +35,19 @@ our model will be created like this:
 > 
 >```m = MLP(3,[(12,'tanh'),(8,"tanh"),4,(3,"softmax")])```
 
+### list of activations
+you can pass these as activatins
+```
+"relu"
+"tanh"
+"softmax"
+```
 
+> [!WARNING]
+> make sure you are always using the **softmax activation** with the **cross_entropy** loss and as the last layer!
+> 
+> because of the backpropagation of softmax and cross_entropy loss if you use it in other ways maybe lead to error or your network doesn't learn.
+>
+> in other activations and losses you are totally free.
+
+### training the NN

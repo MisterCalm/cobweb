@@ -37,11 +37,11 @@ our model will be created like this:
 
 ### list of activations
 you can pass these as activatins
-```
-"relu"
-"tanh"
-"softmax"
-```
+
+* "relu"
+* "tanh"
+* "softmax"
+
 
 > [!WARNING]
 > make sure you are always using the **softmax activation** with the **cross_entropy** loss and as the last layer!
@@ -51,3 +51,28 @@ you can pass these as activatins
 > in other activations and losses you are totally free.
 
 ### training the NN
+
+now let's train our NN
+
+for this we will use `**m.update()**`
+
+update method gets these as input:
+
+* training data batch
+* target datas
+* loss_function (as str)
+* number of epochs
+* learning rate
+
+by running this line of code our NN will be training:
+
+```m.update(x,y,loss_function="cross_entropy",epochs=100,learning_rate=0.01)```
+
+> [!TIP]
+> the default valu for **loss_function** is "mse" which is **MSE**(mean squared error) loss.
+>
+> the default value for **epochs** is **100**
+>
+> the default value for **learning rate** is **0.01**
+
+#### sample training for a classification problem

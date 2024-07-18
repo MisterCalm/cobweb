@@ -76,3 +76,9 @@ by running this line of code our NN will be training:
 > the default value for **learning rate** is **0.01**
 
 #### sample training for a classification problem
+
+## Credit
+
+special tahnks to [Andrej Karpathy](https://github.com/karpathy)
+
+I learned the most of these codes by his [Micro Grad](https://github.com/karpathy/micrograd).

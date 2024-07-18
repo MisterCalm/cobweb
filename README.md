@@ -1,5 +1,7 @@
 # cobweb
-# first picture
+![spider-man-peter-parker-sleep-otdykh](https://github.com/user-attachments/assets/64b0aa17-0c89-466f-ad04-ec445a7ff425)
+
+
 the cobweb is a tiny neural network library that I created to gain deeper understanding of how neural nets are working underneath.
 ## Installation
 first of all checkout the *requirements.txt*
@@ -75,7 +77,15 @@ by running this line of code our NN will be training:
 >
 > the default value for **learning rate** is **0.01**
 
-#### sample training for a classification problem
+### sample training for a classification problem
+#### a classification problem
+![Screenshot (124)](https://github.com/user-attachments/assets/360ec2cb-0709-4804-8e7c-3863c8e821c4)
+![Screenshot (125)](https://github.com/user-attachments/assets/bb18760d-58bb-4415-91f3-00fee13ee172)
+
+#### a regression problem
+![Screenshot (126)](https://github.com/user-attachments/assets/2ab8697f-4791-449f-856c-b6b6173d9b97)
+![Screenshot (127)](https://github.com/user-attachments/assets/187dfc59-ec40-4682-b312-f05c36c8675b)
+
 
 ## Credit
 

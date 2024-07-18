@@ -77,6 +77,15 @@ by running this line of code our NN will be training:
 >
 > the default value for **learning rate** is **0.01**
 
+#### list of loss functions
+
+* "mse" for MSE 
+* "mae" for MAE
+* "cross_entropy" for categorical cross entropy
+
+also even you can use r2 score as loss function by passing "r2"
+
+
 ### sample training for a classification problem
 #### a classification problem
 ![Screenshot (124)](https://github.com/user-attachments/assets/360ec2cb-0709-4804-8e7c-3863c8e821c4)

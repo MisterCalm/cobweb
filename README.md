@@ -86,7 +86,7 @@ by running this line of code our NN will be training:
 also even you can use r2 score as loss function by passing "r2"
 
 
-### sample training for a two problems
+### training samples
 #### A classification problem
 ![Screenshot (124)](https://github.com/user-attachments/assets/269e9b94-a7eb-4071-8a8d-0d40c579ba2a)
 

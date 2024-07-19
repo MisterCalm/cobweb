@@ -1,5 +1,5 @@
 # cobweb
-![spider-man-peter-parker-sleep-otdykh](https://github.com/user-attachments/assets/64b0aa17-0c89-466f-ad04-ec445a7ff425)
+![spider-man](https://github.com/user-attachments/assets/64b0aa17-0c89-466f-ad04-ec445a7ff425)
 
 
 the cobweb is a tiny neural network library that I created to gain deeper understanding of how neural nets are working underneath.
@@ -88,12 +88,13 @@ also even you can use r2 score as loss function by passing "r2"
 
 ### sample training for a classification problem
 #### a classification problem
-![Screenshot (124)](https://github.com/user-attachments/assets/360ec2cb-0709-4804-8e7c-3863c8e821c4)
-![Screenshot (125)](https://github.com/user-attachments/assets/bb18760d-58bb-4415-91f3-00fee13ee172)
+![Screenshot (124)](https://github.com/user-attachments/assets/269e9b94-a7eb-4071-8a8d-0d40c579ba2a)
+
+![Screenshot (125)](https://github.com/user-attachments/assets/782ca9ee-8220-41b4-8c40-5e5627255928)
 
 #### a regression problem
-![Screenshot (126)](https://github.com/user-attachments/assets/2ab8697f-4791-449f-856c-b6b6173d9b97)
-![Screenshot (127)](https://github.com/user-attachments/assets/187dfc59-ec40-4682-b312-f05c36c8675b)
+![Screenshot (126)](https://github.com/user-attachments/assets/2c5b0e11-c0ef-4c8c-a295-7b85ff0b7781)
+![Screenshot (127)](https://github.com/user-attachments/assets/58ffc4d4-42c9-4dc8-aaa6-f3ab0d8d13ae)
 
 
 ## Credit

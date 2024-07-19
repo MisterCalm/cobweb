@@ -10,10 +10,11 @@ HERE = path.abspath(path.dirname(__file__))
 with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
+root_package = "cobweb"
 
 setup(
-    name="cobweb",
-    version="0.1.0",
+    name="cubweb",
+    version="0.1.6",
     description="Demo library",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -32,7 +33,7 @@ setup(
         "Programming Language :: Python :: 3.10",
         "Operating System :: OS Independent"
     ],
-    packages=["cobweb"],
+    packages=[root_package] + [f"{root_package}.{item}" for item in find_packages(where=root_package)],
     include_package_data=True,
     install_requires=["numpy"]
 )

@@ -5,12 +5,12 @@
 the cobweb is a tiny neural network library that I created to gain deeper understanding of how neural nets are working underneath.
 ## Installation
 first of all checkout the *requirements.txt*
-and simply use  `pip install cobweb` command
+and simply use  `pip install cubweb` command
 ## basics
 let's create a simple NN using *cobweb*
 first you need to import MLP (model)
 
-```from cobweb.mlp import MLP```
+```from cobweb.model import MLP```
 
 now we will create our model object.
 
